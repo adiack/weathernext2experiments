@@ -1,4 +1,4 @@
-/** Experimental code for Google Earth Engine
+/** @fileoverview Experimental code for Google Earth Engine
  * ============================================================================
  * WIND TURBINE GRID SIMULATOR (Experimental, based on forecast data)
  * ============================================================================
