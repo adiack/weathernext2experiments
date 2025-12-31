@@ -1,4 +1,4 @@
-/** Experimental code
+/** Experimental code for Google Earth Engine
  * @fileoverview AFRICA WEATHER DYNAMICS (2025) 
  * Visualization of Wind Speed and Precipitation using WeatherNext.
  */
