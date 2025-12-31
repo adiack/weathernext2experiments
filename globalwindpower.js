@@ -1,4 +1,4 @@
-/**
+/** Experimental code
  * @fileoverview GLOBAL WIND POWER POTENTIAL (2025)
  * * Metric: Mean Wind Power Density (W/m²) at 100m height.
  * * Equation: P = 0.5 * rho * v^3 (assuming rho = 1.225 kg/m^3 for air density).
