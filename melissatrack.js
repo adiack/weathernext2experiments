@@ -2,7 +2,6 @@
  * STORM MELISSA (2025) - Forecast Validation Analysis.
  * * "The Prophecy View": Visualizes a specific initialization run (Oct 23)
  * * against the verified ground truth path (IBTrACS).
- * * Objective: Assess if the Oct 23rd AI run successfully predicted the Jamaica landfall (Oct 28).
  * License: MIT
  */
 
@@ -12,7 +11,6 @@
 
 var REGION = ee.Geometry.Rectangle([-90.0, 10.0, -40.0, 42.0]);
 
-// The "Prophecy" Run: What the model believed on this date
 var MODEL_INIT_DATE = '2025-10-23'; 
 // Filter strictly for the midnight initialization run
 var INIT_FILTER = ee.Filter.and(
@@ -172,7 +170,7 @@ var frames = ee.ImageCollection(joinedCol.map(processFrame)).sort('system:time_s
 
 Export.video.toDrive({
   collection: frames,
-  description: 'Melissa_Forecast_Validation_Oct23',
+  description: 'Melissa_Forecast_Oct23',
   dimensions: 1080,
   framesPerSecond: 24,
   region: REGION,
