@@ -1,4 +1,4 @@
-/**
+/** Experimental code for Google Earth Engine
  * STORM MELISSA (2025) - Forecast Validation Analysis.
  * * "The Prophecy View": Visualizes a specific initialization run (Oct 23)
  * * against the verified ground truth path (IBTrACS).
